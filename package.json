@@ -1,0 +1,25 @@
+{
+    "name": "panda-extended",
+    "displayName": "Panda Extended",
+    "description": "Panda Theme Extended",
+    "version": "0.0.1",
+    "publisher": "dhedgecock",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "scripts": {
+      "build": "node build.js"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Panda Extended",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Panda Extended.json"
+            }
+        ]
+    }
+}

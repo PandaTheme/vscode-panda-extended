@@ -1,0 +1,39 @@
+{
+  "settings": [
+    {
+      "name": "JSDoc",
+      "scope": "comment.block.documentation",
+      "settings": {
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "name": "Inline Code",
+      "scope": "markup.inline.raw",
+      "settings": {
+        "foreground": "#19f9d8"
+      }
+    },
+    {
+      "name": "Heading",
+      "scope": "punctuation.definition.heading",
+      "settings": {
+        "foreground": "#19f9d8"
+      }
+    },
+    {
+      "name": "List Punctuation",
+      "scope": "beginning.punctuation.definition.list",
+      "settings": {
+        "foreground": "#FF75B5"
+      }
+    },
+    {
+      "name": "Code Blocks Base",
+      "scope": "markup.fenced_code.block.markdown",
+      "settings": {
+        "foreground": "#B3B3B3"
+      }
+    }
+  ]
+}
