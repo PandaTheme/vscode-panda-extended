@@ -1,23 +1,20 @@
 {
+  "$schema": "vscode://schemas/color-theme",
   "comment": "Panda, Created by Siamak Mokhtari.",
   "author": "Siamak Mokhtari",
   "name": "Panda Theme Extended",
-  "settings": [
+  "tokenColors": [
     {
       "settings": {
-        "background": "#292A2B",
-        "caret": "#F8F8F0",
-        "foreground": "#E6E6E6",
-        "invisibles": "#34383D",
-        "lineHighlight": "#404954",
-        "selection": "#3C404587"
+        "background": "$gray",
+        "foreground": "$white"
       }
     },
     {
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#676B79",
+        "foreground": "$comment-gray",
         "fontStyle": " italic"
       }
     },
@@ -25,28 +22,28 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#19F9D8"
+        "foreground": "$green"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
       "name": "Built-in constant",
       "scope": "constant.language",
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
       "name": "User-defined constant",
       "scope": "constant.character, constant.other",
       "settings": {
-        "foreground": "#6DB1FF"
+        "foreground": "$light-blue"
       }
     },
     {
@@ -54,14 +51,14 @@
       "scope": "variable",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFAAD9"
+        "foreground": "$light-pink"
       }
     },
     {
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#FF75B5"
+        "foreground": "$pink"
       }
     },
     {
@@ -69,21 +66,21 @@
       "scope": "storage",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
       "name": "Class name",
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "#FFC990",
+        "foreground": "$light-orange",
         "fontStyle": " italic"
       }
     },
@@ -92,7 +89,7 @@
       "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "   underline ",
-        "foreground": "#FFC990"
+        "foreground": "$light-orange"
       }
     },
     {
@@ -100,14 +97,14 @@
       "scope": "entity.name.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#65BDFF"
+        "foreground": "$light-blue"
       }
     },
     {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "#C7C7C7",
+        "foreground": "$lighter-gray",
         "fontStyle": " italic"
       }
     },
@@ -116,7 +113,7 @@
       "scope": "entity.name.tag",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FF2C6D"
+        "foreground": "$red"
       }
     },
     {
@@ -124,7 +121,7 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
@@ -132,7 +129,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#65BDFF"
+        "foreground": "$light-blue"
       }
     },
     {
@@ -140,14 +137,14 @@
       "scope": "support.constant",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
       "name": "Library class\/type",
       "scope": "support.type, support.class",
       "settings": {
-        "foreground": "#FFC990"
+        "foreground": "$light-orange"
       }
     },
     {
@@ -155,7 +152,7 @@
       "scope": "support.other.variable",
       "settings": {
         "fontStyle": "",
-        "foreground": "#FF0000"
+        "foreground": "$red"
       }
     },
     {
@@ -163,7 +160,7 @@
       "scope": "invalid",
       "settings": {
         "background": "",
-        "foreground": "#EBEBEB"
+        "foreground": "$lighter-gray"
       }
     },
     {
@@ -171,7 +168,7 @@
       "scope": "invalid.deprecated",
       "settings": {
         "background": "",
-        "foreground": "#7A6E71",
+        "foreground": "$light-gray",
         "fontStyle": "  italic underline"
       }
     },
@@ -186,28 +183,28 @@
       "name": "",
       "scope": "source meta.property-list meta.property-name support.type.property-name",
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "$very-light-gray"
       }
     },
     {
       "name": "",
       "scope": "source meta.property-list meta.property-value keyword.other.unit",
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
       "name": "source.js keyword.operator.js",
       "scope": "source keyword.operator",
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "$very-light-gray"
       }
     },
     {
       "name": "",
       "scope": "source.js entity.name.type.object.js.firebug",
       "settings": {
-        "foreground": "#FFC990"
+        "foreground": "$light-orange"
       }
     },
     {
@@ -216,49 +213,49 @@
       "settings": {
         "fontStyle": " italic",
         "background": "",
-        "foreground": "#FF75B5"
+        "foreground": "$pink"
       }
     },
     {
       "name": "",
       "scope": "source.js meta.class.instance.constructor entity.name.type.instance.js",
       "settings": {
-        "foreground": "#FFC990"
+        "foreground": "$light-orange"
       }
     },
     {
       "name": "",
       "scope": "source meta.at-rule.media",
       "settings": {
-        "foreground": "#B084EB"
+        "foreground": "$purple"
       }
     },
     {
       "name": "",
       "scope": "source meta.at-rule.import variable.parameter.url",
       "settings": {
-        "foreground": "#19F9D8"
+        "foreground": "$green"
       }
     },
     {
       "name": "",
       "scope": "source.sass variable.parameter.sass",
       "settings": {
-        "foreground": "#FFAAD9"
+        "foreground": "$light-pink"
       }
     },
     {
       "name": "",
       "scope": "source meta.property-value.css constant.other",
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     },
     {
       "name": "",
       "scope": "source .property-value.css parameter constant.numeric.css keyword.other.unit.css",
       "settings": {
-        "foreground": "#FFB86C"
+        "foreground": "$orange"
       }
     }
   ],
