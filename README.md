@@ -1,13 +1,6 @@
-# README
-## This is the README for your extension "panda-extended"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Panda Theme Extended
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+This is the very amazing Panda Theme extended to provide even more amazing, especially
+when working with JSDoc/Handlebars/Markdown.
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+![Screenshot](https://raw.githubusercontent.com/dhedgecock/vscode-panda-extended/master/screenshot.png)
