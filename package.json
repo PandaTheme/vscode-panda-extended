@@ -2,7 +2,7 @@
     "name": "panda-extended",
     "displayName": "Panda Extended",
     "description": "Panda Theme Extended",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "dhedgecock",
     "engines": {
         "vscode": "^1.12.0"
