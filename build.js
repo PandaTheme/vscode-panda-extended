@@ -27,11 +27,13 @@ const theme = {
   '$light-blue': '#7FD7FF',
   // '$light-blue': '#8FBFE4',
   '$purple': '#B084EB',
+  '$light-purple': '#BCAAFE',
   '$green': '#19f9d8',
   // rrggbbaa ftw
   '$hover-green': '#19f9d880',
 
   '$red': '#FF2C6D',
+  '$light-red': '#FF4C6D',
   '$orange': '#FFB86C',
   '$light-orange': '#FFC990',
   '$lighter-orange': '#FFD286',

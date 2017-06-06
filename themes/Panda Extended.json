@@ -390,6 +390,21 @@
     "scrollbarSlider.activeBackground": "#19f9d880",
     "scrollbarSlider.hoverBackground": "#19f9d880",
     "statusBar.background": "#373b41",
-    "tab.activeBackground": "#19f9d880"
+    "tab.activeBackground": "#19f9d880",
+    "terminal.ansiBlue": "#45A9F9",
+    "terminal.ansiBrightBlack": "#292A2B",
+    "terminal.ansiBrightBlue": "#7FD7FF",
+    "terminal.ansiBrightCyan": "#BCAAFE",
+    "terminal.ansiBrightGreen": "#19f9d8",
+    "terminal.ansiBrightMagenta": "#FF9AC1",
+    "terminal.ansiBrightRed": "#FF2C6D",
+    "terminal.ansiBrightWhite": "#e1e1e1",
+    "terminal.ansiBrightYellow": "#FFC990",
+    "terminal.ansiCyan": "#B084EB",
+    "terminal.ansiGreen": "#19f9d8",
+    "terminal.ansiMagenta": "#FF75B5",
+    "terminal.ansiRed": "#FF2C6D",
+    "terminal.ansiWhite": "#CDCDCD",
+    "terminal.ansiYellow": "#FFB86C"
   }
 }
