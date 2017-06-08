@@ -8,18 +8,18 @@ const workbench = require('./themes/workbench');
 
 const theme = {
   '$very-light-gray': '#E6E6E6',
-  '$foreground': '#e1e1e1',
+  '$foreground': '#E1E1E1',
   '$lighter-gray': '#CDCDCD',
   '$light-gray': '#757575',
   '$comment-gray': '#676B79',
-  '$gray': '#373b41',
+  '$gray': '#373B41',
   '$background': '#292A2B',
   '$highlight': '#4E5260',
 
   '$dark-gray': '#242526',
   '$very-dark-gray': '#292A2B',
 
-  '$white': '#f3f3f3',
+  '$white': '#F3F3F3',
   '$light-midnight': '#676B79',
 
   '$blue': '#45A9F9',
@@ -39,7 +39,10 @@ const theme = {
   '$lighter-orange': '#FFD286',
 
   '$pink': '#FF75B5',
-  '$light-pink': '#FF9AC1'
+  '$light-pink': '#FF9AC1',
+
+  '$diff-green': '#00e7eb25',
+  '$diff-red': '#FF46CD25',
 }
 
 base.tokenColors = base.tokenColors.concat(template, markdown, jsdoc);

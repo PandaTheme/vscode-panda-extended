@@ -6,8 +6,8 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#373b41",
-        "foreground": "#f3f3f3"
+        "background": "#373B41",
+        "foreground": "#F3F3F3"
       }
     },
     {
@@ -379,17 +379,19 @@
   "colorSpaceName": "sRGB",
   "semanticClass": "theme.dark.sublime_panda_syntax",
   "colors": {
-    "foreground": "#e1e1e1",
-    "activityBar.background": "#373b41",
+    "foreground": "#E1E1E1",
+    "activityBar.background": "#373B41",
     "activityBar.foreground": "#19f9d8",
     "activityBarBadge.background": "#7FD7FF",
+    "diffEditor.insertedTextBackground": "#00e7eb25",
+    "diffEditor.removedTextBackground": "#FF46CD25",
     "editor.background": "#292A2B",
-    "editor.foreground": "#e1e1e1",
+    "editor.foreground": "#E1E1E1",
     "editor.selectionBackground": "#4E5260",
     "sideBar.background": "#292A2B",
     "scrollbarSlider.activeBackground": "#19f9d880",
     "scrollbarSlider.hoverBackground": "#19f9d880",
-    "statusBar.background": "#373b41",
+    "statusBar.background": "#373B41",
     "tab.activeBackground": "#19f9d880",
     "terminal.ansiBlue": "#45A9F9",
     "terminal.ansiBrightBlack": "#292A2B",
@@ -398,7 +400,7 @@
     "terminal.ansiBrightGreen": "#19f9d8",
     "terminal.ansiBrightMagenta": "#FF9AC1",
     "terminal.ansiBrightRed": "#FF2C6D",
-    "terminal.ansiBrightWhite": "#e1e1e1",
+    "terminal.ansiBrightWhite": "#E1E1E1",
     "terminal.ansiBrightYellow": "#FFC990",
     "terminal.ansiCyan": "#B084EB",
     "terminal.ansiGreen": "#19f9d8",
