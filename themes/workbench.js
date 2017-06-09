@@ -17,6 +17,16 @@ module.exports = {
     // Editor
     'editor.background': '$background',
     'editor.foreground': '$foreground',
+
+    'editorError.foreground': '$light-red',
+    'editorError.border': '$light-red',
+    'editorWarning.foreground': '$lighter-orange',
+    'editorWarning.border': '$lighter-orange',
+
+    'editorGutter.modifiedBackground': '$light-orange',
+    'editorGutter.addedBackground': '$green',
+    'editorGutter.deletedBackground': '$light-red',
+
     'editor.selectionBackground': '$highlight',
 
     // Sidebar (File tree)

@@ -23,9 +23,7 @@ const theme = {
   '$light-midnight': '#676B79',
 
   '$blue': '#45A9F9',
-  // '$light-blue': '#65BDFF',
   '$light-blue': '#7FD7FF',
-  // '$light-blue': '#8FBFE4',
   '$purple': '#B084EB',
   '$light-purple': '#BCAAFE',
   '$green': '#19f9d8',
@@ -41,7 +39,7 @@ const theme = {
   '$pink': '#FF75B5',
   '$light-pink': '#FF9AC1',
 
-  '$diff-green': '#00e7eb25',
+  '$diff-green': '#00E7EB25',
   '$diff-red': '#FF46CD25',
 }
 
