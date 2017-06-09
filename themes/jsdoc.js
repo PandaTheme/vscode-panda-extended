@@ -10,7 +10,7 @@ module.exports = [
     // Tags with type defs curly punctation
     scope: 'entity.name.type.instance.jsdoc punctuation.definition',
     settings: {
-      foreground: '$light-orange',
+      foreground: '_light-orange',
       fontStyle: 'italic'
     }
   },
@@ -18,7 +18,7 @@ module.exports = [
     // Type def and method/prop NAMES
     scope: 'entity.name.type.instance.jsdoc',
     settings: {
-      foreground: '$lighter-gray',
+      foreground: '_lighter-gray',
       fontStyle: 'italic'
     }
   },
@@ -26,14 +26,14 @@ module.exports = [
     // Built in JSdoc block tags
     scope: 'comment.block storage',
     settings: {
-      foreground: '$light-orange'
+      foreground: '_light-orange'
     }
   },
   {
     // Custom doc tags
     scope: 'comment.block storage.custom',
     settings: {
-      foreground: '$pink'
+      foreground: '_pink'
     }
   },
 ]

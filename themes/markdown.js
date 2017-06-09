@@ -10,28 +10,28 @@ module.exports = [
     // Inline code blocks: `code`
     scope: 'markup.inline.raw',
     settings: {
-      foreground: '$green'
+      foreground: '_green'
     }
   },
   {
     // Headers: ## Heading
     scope: 'punctuation.definition.heading',
     settings: {
-      foreground: '$green'
+      foreground: '_green'
     }
   },
   {
     // List punctuation: -
     scope: 'beginning.punctuation.definition.list',
     settings: {
-      foreground: '$pink'
+      foreground: '_pink'
     }
   },
   {
     // Fenced code blocks
     scope: 'markup.fenced_code.block.markdown',
     settings: {
-      foreground: '$lighter-gray'
+      foreground: '_lighter-gray'
     }
   },
 ]

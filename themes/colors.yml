@@ -1,0 +1,28 @@
+themeColors:
+  _white: '#F3F3F3'
+  _very-light-gray: '#E1E1E1'
+  _lighter-gray: '#CDCDCD'
+  _light-gray: '#757575'
+  _light-midnight: '#676B79'
+  _steel-gray: '#4E5260'
+  _gray: '#373B41'
+  _dark-gray: '#242526'
+  _very-dark-gray: '#292A2B'
+  # Blue+Purple+Green
+  _blue: '#45A9F9'
+  _light-blue: '#7FD7FF'
+  _purple: '#B084EB'
+  _light-purple: '#BCAAFE'
+  _green: '#19f9d8'
+  _hover-green: '#19f9d880'
+  # Pink+Red+Orange
+  _red: '#FF2C6D'
+  _light-red: '#FF4C6D'
+  _orange: '#FFB86C'
+  _light-orange: '#FFC990'
+  _lighter-orange: '#FFD286'
+  _pink: '#FF75B5'
+  _light-pink: '#FF9AC1'
+  # Element Colors
+  _diff-green: '#00E7EB25'
+  _diff-red: '#FF46CD25'

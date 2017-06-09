@@ -183,7 +183,7 @@
       "name": "",
       "scope": "source meta.property-list meta.property-name support.type.property-name",
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E1E1E1"
       }
     },
     {
@@ -197,7 +197,7 @@
       "name": "source.js keyword.operator.js",
       "scope": "source keyword.operator",
       "settings": {
-        "foreground": "#E6E6E6"
+        "foreground": "#E1E1E1"
       }
     },
     {
@@ -383,10 +383,17 @@
     "activityBar.background": "#373B41",
     "activityBar.foreground": "#19f9d8",
     "activityBarBadge.background": "#7FD7FF",
-    "diffEditor.insertedTextBackground": "#00e7eb25",
+    "diffEditor.insertedTextBackground": "#00E7EB25",
     "diffEditor.removedTextBackground": "#FF46CD25",
     "editor.background": "#292A2B",
     "editor.foreground": "#E1E1E1",
+    "editorError.foreground": "#FF4C6D",
+    "editorError.border": "#FF4C6D",
+    "editorWarning.foreground": "#FFD286",
+    "editorWarning.border": "#FFD286",
+    "editorGutter.modifiedBackground": "#FFC990",
+    "editorGutter.addedBackground": "#19f9d8",
+    "editorGutter.deletedBackground": "#FF4C6D",
     "editor.selectionBackground": "#4E5260",
     "sideBar.background": "#292A2B",
     "scrollbarSlider.activeBackground": "#19f9d880",

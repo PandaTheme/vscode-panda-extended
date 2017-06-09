@@ -6,15 +6,15 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "$gray",
-        "foreground": "$white"
+        "background": "_gray",
+        "foreground": "_white"
       }
     },
     {
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "$comment-gray",
+        "foreground": "_light-midnight",
         "fontStyle": " italic"
       }
     },
@@ -22,28 +22,28 @@
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "$green"
+        "foreground": "_green"
       }
     },
     {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
       "name": "Built-in constant",
       "scope": "constant.language",
       "settings": {
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
       "name": "User-defined constant",
       "scope": "constant.character, constant.other",
       "settings": {
-        "foreground": "$light-blue"
+        "foreground": "_light-blue"
       }
     },
     {
@@ -51,14 +51,14 @@
       "scope": "variable",
       "settings": {
         "fontStyle": "",
-        "foreground": "$light-pink"
+        "foreground": "_light-pink"
       }
     },
     {
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "$pink"
+        "foreground": "_pink"
       }
     },
     {
@@ -66,21 +66,21 @@
       "scope": "storage",
       "settings": {
         "fontStyle": "",
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
       "name": "Class name",
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "$light-orange",
+        "foreground": "_light-orange",
         "fontStyle": " italic"
       }
     },
@@ -89,7 +89,7 @@
       "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "   underline ",
-        "foreground": "$light-orange"
+        "foreground": "_light-orange"
       }
     },
     {
@@ -97,14 +97,14 @@
       "scope": "entity.name.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "$light-blue"
+        "foreground": "_light-blue"
       }
     },
     {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
-        "foreground": "$lighter-gray",
+        "foreground": "_lighter-gray",
         "fontStyle": " italic"
       }
     },
@@ -113,7 +113,7 @@
       "scope": "entity.name.tag",
       "settings": {
         "fontStyle": "",
-        "foreground": "$red"
+        "foreground": "_red"
       }
     },
     {
@@ -121,7 +121,7 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "fontStyle": "",
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
@@ -129,7 +129,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "$light-blue"
+        "foreground": "_light-blue"
       }
     },
     {
@@ -137,14 +137,14 @@
       "scope": "support.constant",
       "settings": {
         "fontStyle": "",
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
       "name": "Library class\/type",
       "scope": "support.type, support.class",
       "settings": {
-        "foreground": "$light-orange"
+        "foreground": "_light-orange"
       }
     },
     {
@@ -152,7 +152,7 @@
       "scope": "support.other.variable",
       "settings": {
         "fontStyle": "",
-        "foreground": "$red"
+        "foreground": "_red"
       }
     },
     {
@@ -160,7 +160,7 @@
       "scope": "invalid",
       "settings": {
         "background": "",
-        "foreground": "$lighter-gray"
+        "foreground": "_lighter-gray"
       }
     },
     {
@@ -168,7 +168,7 @@
       "scope": "invalid.deprecated",
       "settings": {
         "background": "",
-        "foreground": "$light-gray",
+        "foreground": "_light-gray",
         "fontStyle": "  italic underline"
       }
     },
@@ -183,28 +183,28 @@
       "name": "",
       "scope": "source meta.property-list meta.property-name support.type.property-name",
       "settings": {
-        "foreground": "$very-light-gray"
+        "foreground": "_very-light-gray"
       }
     },
     {
       "name": "",
       "scope": "source meta.property-list meta.property-value keyword.other.unit",
       "settings": {
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
       "name": "source.js keyword.operator.js",
       "scope": "source keyword.operator",
       "settings": {
-        "foreground": "$very-light-gray"
+        "foreground": "_very-light-gray"
       }
     },
     {
       "name": "",
       "scope": "source.js entity.name.type.object.js.firebug",
       "settings": {
-        "foreground": "$light-orange"
+        "foreground": "_light-orange"
       }
     },
     {
@@ -213,49 +213,49 @@
       "settings": {
         "fontStyle": " italic",
         "background": "",
-        "foreground": "$pink"
+        "foreground": "_pink"
       }
     },
     {
       "name": "",
       "scope": "source.js meta.class.instance.constructor entity.name.type.instance.js",
       "settings": {
-        "foreground": "$light-orange"
+        "foreground": "_light-orange"
       }
     },
     {
       "name": "",
       "scope": "source meta.at-rule.media",
       "settings": {
-        "foreground": "$purple"
+        "foreground": "_purple"
       }
     },
     {
       "name": "",
       "scope": "source meta.at-rule.import variable.parameter.url",
       "settings": {
-        "foreground": "$green"
+        "foreground": "_green"
       }
     },
     {
       "name": "",
       "scope": "source.sass variable.parameter.sass",
       "settings": {
-        "foreground": "$light-pink"
+        "foreground": "_light-pink"
       }
     },
     {
       "name": "",
       "scope": "source meta.property-value.css constant.other",
       "settings": {
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     },
     {
       "name": "",
       "scope": "source .property-value.css parameter constant.numeric.css keyword.other.unit.css",
       "settings": {
-        "foreground": "$orange"
+        "foreground": "_orange"
       }
     }
   ],
