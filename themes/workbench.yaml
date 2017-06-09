@@ -7,16 +7,25 @@ colors:
   activityBar.foreground: _green
   activityBarBadge.background: _light-blue
   #
+  # Button
+  #
+  button.background: _blue
+  #
   # Diff
   #
   diffEditor.insertedTextBackground: _diff-green
+  # diffEditor.insertedTextBorder: NONE
   diffEditor.removedTextBackground: _diff-red
+  # diffEditor.removedTextBorder: NONE
   #
   # Editor
   #
   editor.background: _very-dark-gray
   editor.foreground: _very-light-gray
   editor.selectionBackground: _steel-gray
+  editorRuler.foreground: _hover-purple
+  editorBracketMatch.border: _purple
+  # editorBracketMatch.background: NONE
   #
   # Errors
   #
@@ -30,6 +39,10 @@ colors:
   editorGutter.modifiedBackground: _light-orange
   editorGutter.addedBackground: _green
   editorGutter.deletedBackground: _light-red
+  #
+  # List
+  #
+  # list.hoverForeground: _hover-green tree text on hover
   #
   # Sidebar (File tree)
   #
