@@ -23,6 +23,7 @@ colors:
   editor.background: _very-dark-gray
   editor.foreground: _very-light-gray
   editor.selectionBackground: _steel-gray
+  editorCursor.foreground: _light-red
   editorRuler.foreground: _hover-purple
   editorBracketMatch.border: _purple
   # editorBracketMatch.background: NONE
