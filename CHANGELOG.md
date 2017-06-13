@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.4.0] - 2017-06-13
+### Added
+- Themed cursor
+
 ## [0.3.0] - 2017-06-09
 ### Added
 - Themed editor git gutter markers
