@@ -32,8 +32,8 @@ colors:
   #
   editorError.foreground: _light-red
   editorError.border: _light-red
-  editorWarning.foreground: _lighter-orange
-  editorWarning.border: _lighter-orange
+  editorWarning.foreground: _light-orange
+  editorWarning.border: _light-orange
   #
   # Git Gutters
   #

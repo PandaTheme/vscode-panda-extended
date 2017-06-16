@@ -1,12 +1,12 @@
 const { writeFile, readFileSync } = require('fs');
 const yaml = require('js-yaml');
 
-let base = require('./themes/panda-base.json');
-const template = yaml.safeLoad(readFileSync('themes/template.yaml', 'utf-8')).styles;
-const markdown = yaml.safeLoad(readFileSync('themes/markdown.yaml', 'utf-8')).styles;
-const jsdoc = yaml.safeLoad(readFileSync('themes/jsdoc.yaml', 'utf-8')).styles;
+let base = yaml.safeLoad(readFileSync('themes/panda-base.yaml', 'utf-8'));
 const workbench = yaml.safeLoad(readFileSync('themes/workbench.yaml', 'utf-8'));
-const themeColors = yaml.safeLoad(readFileSync('themes/colors.yaml', 'utf-8')).themeColors;
+const themeColors = yaml.safeLoad(readFileSync('themes/colors.yaml', 'utf-8'));
+const template = yaml.safeLoad(readFileSync('themes/template.yaml', 'utf-8'));
+const markdown = yaml.safeLoad(readFileSync('themes/markdown.yaml', 'utf-8'));
+const jsdoc = yaml.safeLoad(readFileSync('themes/jsdoc.yaml', 'utf-8'));
 
 base.tokenColors = base.tokenColors.concat(template, markdown, jsdoc);
 Object.assign(base, workbench);

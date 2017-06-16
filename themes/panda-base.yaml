@@ -1,0 +1,273 @@
+$schema: vscode://schemas/color-theme
+author: Siamak Mokhtari, Extended by Dan Hedgecock
+name: Panda Theme Extended
+colorSpaceName: sRGB
+semanticClass: theme.dark.sublime_panda_syntax
+tokenColors:
+######################################################## Comments
+- scope: comment
+  settings:
+    foreground: _light-midnight
+    fontStyle: italic
+- scope: punctuation.definition.comment
+  settings:
+    foreground: _light-midnight
+
+######################################################## Keywords
+- scope: keyword
+  settings:
+    foreground: _pink
+# Language features like: import, return, if, else
+- scope: keyword.control
+  settings:
+    foreground: _pink
+    fontStyle: italic
+- scope: keyword.control.html.custom
+  settings:
+    foreground: _orange
+- scope: keyword.control.scss.import, .keyword.control.less.import, .keyword.control.css.import
+  settings:
+    foreground: _light-pink
+- scope: keyword.control.scss.at-rule, .keyword.control.less.at-rule, .keyword.control.css.at-rule
+  settings:
+    foreground: _purple
+- scope: keyword.control.scss.at-rule .keyword, .keyword.control.less.at-rule .keyword, .keyword.control.css.at-rule .keyword
+  settings:
+    foreground: _purple
+- scope: keyword.control.jade.include, .keyword.control.pug.include
+  settings:
+    foreground: _green
+- scope: keyword.control.new
+  settings:
+    foreground: _pink
+    fontStyle: italic
+# Operators like ||, ===
+- scope: keyword.operator.logical, keyword.operator.comparison
+  settings:
+    foreground: _light-orange
+# Operators like =, +, ? :
+- scope: keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.ternary
+  settings:
+    foreground: _very-light-gray
+- scope: keyword.operator.new
+  settings:
+    foreground: _pink
+    fontStyle: italic
+- scope: keyword.operator.accessor
+  settings:
+    foreground: _lighter-gray
+- scope: keyword.other.important
+  settings:
+    foreground: _light-red
+- scope: keyword.other.special-method
+  settings:
+    foreground: _blue
+- scope: keyword.other.unit
+  settings:
+    foreground: _orange
+- scope: keyword.other.ini
+  settings:
+    foreground: _red
+
+######################################################## Storage
+- scope: storage
+  settings:
+    foreground: _orange
+- scope: storage.java.type
+  settings:
+    fontStyle: italic
+- scope: storage.java.modifier.import
+  settings:
+    foreground: _very-light-gray
+- scope: storage.java.modifier.package
+  settings:
+    foreground: _blue
+
+######################################################## Constants
+- scope: constant
+  settings:
+    foreground: _orange
+# Makes true/false booleans, null, undefined blue
+- scope: constant.language
+  settings:
+    foreground: _blue
+    fontStyle: italic
+- scope: constant.character.escape
+  settings:
+    foreground: _blue
+- scope: constant.id.tag.pug, .constant.id.tag.jade
+  settings:
+    foreground: _light-orange
+- scope: constant.numeric
+  settings:
+    foreground: _orange
+- scope: constant.other.color
+  settings:
+    foreground: _blue
+- scope: constant.other.color .constant
+  settings:
+    foreground: _blue
+- scope: constant.other.symbol
+  settings:
+    foreground: _green
+
+######################################################## Variables && Parameters
+- scope: variable
+  settings:
+    foreground: _very-light-gray
+# Variable name in definition statemens, eg: let NAME =
+# - scope: meta.definition.variable.js
+#   settings:
+#     foreground: _lighter-gray
+- scope: variable.interpolation
+  settings:
+    foreground: _pink
+# Function parameters
+- scope: variable.parameter
+  settings:
+    foreground: _contrast-gray
+    fontStyle: italic
+# Destructuring assignment variables
+- scope: meta.object-binding-pattern-variable.js variable
+  settings:
+    foreground: _light-orange
+
+######################################################## Objects
+- scope: variable.other.object
+  settings:
+      foreground: _light-pink
+- scope: variable.other.property
+  settings:
+    foreground: _very-light-gray
+
+######################################################## Illegals
+- scope: invalid.illegal
+  settings:
+    border-bottom: 1px dashed rgba(255, 44, 109, 0.5)
+- scope: invalid.deprecated
+  settings:
+    background-foreground: rgba(255, 44, 109, 0.62)
+
+######################################################## Strings
+- scope: string
+  settings:
+    foreground: _green
+- scope: string.regexp
+  settings:
+    foreground: _blue
+- scope: string.regexp .source.ruby.embedded
+  settings:
+    foreground: _orange
+- scope: string.unquoted.js
+  settings:
+    foreground: _light-orange
+- scope: string .punctuation .section.embedded .source
+  settings:
+    foreground: _green
+- scope: string.other.link
+  settings:
+    foreground: _red
+
+######################################################## Punctuation
+- scope: punctuation.definition.array, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.variable
+  settings:
+    foreground: _very-light-gray
+# Template string ${}
+- scope: punctuation.definition.template-expression
+  settings:
+    foreground: _light-orange
+- scope: punctuation.definition.heading, .punctuation.definition.identity
+  settings:
+    foreground: _blue
+- scope: punctuation.definition.string
+  settings:
+    foreground: _green
+- scope: punctuation.definition.bold
+  settings:
+    foreground: _light-orange
+    font-weight: bold
+- scope: punctuation.definition.italic
+  settings:
+    foreground: _pink
+    fontStyle: italic
+- scope: punctuation.definition.tag.jsx
+  settings:
+    foreground: _orange
+- scope: punctuation.section.embedded
+  settings:
+    foreground: _light-pink
+
+######################################################## Support
+- scope: support.class
+  settings:
+    foreground: _light-orange
+- scope: support.type
+  settings:
+    foreground: _light-orange
+- scope: support.type.object.module.js
+  settings:
+    foreground: _purple
+- scope: support.function
+  settings:
+    foreground: _light-blue
+- scope: support.function.any-method
+  settings:
+    foreground: _light-blue
+
+######################################################## Entities
+- scope: entity.name.function
+  settings:
+    foreground: _light-blue
+- scope: entity.name.type
+  settings:
+    foreground: _light-orange
+- scope: entity.other.inherited-class
+  settings:
+    foreground: _green
+- scope: entity.name.class, .entity.name.type.class
+  settings:
+    foreground: _light-orange
+# Matches markup headers?
+- scope: entity.name.section
+  settings:
+    foreground: _blue
+- scope: entity.name.tag
+  settings:
+    foreground: _red
+# YAML keys
+- scope: entity.name.tag.yaml
+  settings:
+    foreground: _light-orange
+- scope: entity.other.attribute-name
+  settings:
+    foreground: _orange
+- scope: entity.other.attribute-name.id
+  settings:
+    foreground: _blue
+
+######################################################## Meta
+- scope: meta.import.js
+  settings:
+    foreground: _light-pink
+- scope: meta.class
+  settings:
+    foreground: _light-orange
+- scope: meta.link
+  settings:
+    foreground: _orange
+- scope: meta.require
+  settings:
+    foreground: _blue
+- scope: meta.selector
+  settings:
+    foreground: _pink
+- scope: meta.separator
+  settings:
+    background-foreground: _gray
+    foreground: _very-light-gray
+- scope: meta.method-call.java
+  settings:
+    foreground: _very-light-gray
+- scope: none
+  settings:
+    foreground: _very-light-gray
