@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.5.0] - 2017-06-15
+### Changed
+Used the base theme scopes from Atom, a number of which don't match, but in general
+the theme is lightened a bit and is a bit easier to scan.
+
 ## [0.4.0] - 2017-06-13
 ### Added
 - Themed cursor
