@@ -45,7 +45,7 @@
     foreground: _contrast-gray
     fontStyle: italic
 ######################################################## Links
-- scope: text.html.markdown string.other.link
+- scope: string.other.link
   settings:
     foreground: _contrast-gray
     fontStyle: normal

@@ -15,6 +15,10 @@
 - scope: entity.unescaped.expression
   settings:
     foreground: _purple
+# Matches pipes in as expressions
+- scope: constant.other.symbol
+  settings:
+    foreground: _green
 # Expression parameter NAME
 - scope: entity.expression variable.parameter.name
   settings:

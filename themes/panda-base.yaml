@@ -17,71 +17,28 @@ tokenColors:
 - scope: keyword
   settings:
     foreground: _pink
-# Language features like: import, return, if, else
-- scope: keyword.control
+# 1. Language features like: import, return, if, else
+# 2. `new` keyword
+- scope: keyword.control, keyword.operator.new
   settings:
     foreground: _pink
     fontStyle: italic
-- scope: keyword.control.html.custom
+
+# Make operators light gray by default
+- scope: keyword.operator
   settings:
-    foreground: _orange
-- scope: keyword.control.scss.import, .keyword.control.less.import, .keyword.control.css.import
-  settings:
-    foreground: _light-pink
-- scope: keyword.control.scss.at-rule, .keyword.control.less.at-rule, .keyword.control.css.at-rule
-  settings:
-    foreground: _purple
-- scope: keyword.control.scss.at-rule .keyword, .keyword.control.less.at-rule .keyword, .keyword.control.css.at-rule .keyword
-  settings:
-    foreground: _purple
-- scope: keyword.control.jade.include, .keyword.control.pug.include
-  settings:
-    foreground: _green
-- scope: keyword.control.new
-  settings:
-    foreground: _pink
-    fontStyle: italic
-# Operators like ||, ===
+    foreground: _very-light-gray
+
+# Make logical operators light orange, eg ||, ===
 - scope: keyword.operator.logical, keyword.operator.comparison
   settings:
     foreground: _light-orange
-# Operators like =, +, ? :
-- scope: keyword.operator.assignment, keyword.operator.arithmetic, keyword.operator.ternary
-  settings:
-    foreground: _very-light-gray
-- scope: keyword.operator.new
-  settings:
-    foreground: _pink
-    fontStyle: italic
-- scope: keyword.operator.accessor
-  settings:
-    foreground: _lighter-gray
-- scope: keyword.other.important
-  settings:
-    foreground: _light-red
-- scope: keyword.other.special-method
-  settings:
-    foreground: _blue
-- scope: keyword.other.unit
-  settings:
-    foreground: _orange
-- scope: keyword.other.ini
-  settings:
-    foreground: _red
+
 
 ######################################################## Storage
 - scope: storage
   settings:
     foreground: _orange
-- scope: storage.java.type
-  settings:
-    fontStyle: italic
-- scope: storage.java.modifier.import
-  settings:
-    foreground: _very-light-gray
-- scope: storage.java.modifier.package
-  settings:
-    foreground: _blue
 
 ######################################################## Constants
 - scope: constant
@@ -90,38 +47,20 @@ tokenColors:
 # Makes true/false booleans, null, undefined blue
 - scope: constant.language
   settings:
-    foreground: _blue
     fontStyle: italic
+# Regex, string escape `\`
 - scope: constant.character.escape
   settings:
     foreground: _blue
-- scope: constant.id.tag.pug, .constant.id.tag.jade
-  settings:
-    foreground: _light-orange
+# Numbers
 - scope: constant.numeric
   settings:
     foreground: _orange
-- scope: constant.other.color
-  settings:
-    foreground: _blue
-- scope: constant.other.color .constant
-  settings:
-    foreground: _blue
-- scope: constant.other.symbol
-  settings:
-    foreground: _green
 
 ######################################################## Variables && Parameters
 - scope: variable
   settings:
     foreground: _very-light-gray
-# Variable name in definition statemens, eg: let NAME =
-# - scope: meta.definition.variable.js
-#   settings:
-#     foreground: _lighter-gray
-- scope: variable.interpolation
-  settings:
-    foreground: _pink
 # Function parameters
 - scope: variable.parameter
   settings:
@@ -131,6 +70,10 @@ tokenColors:
 - scope: meta.object-binding-pattern-variable.js variable
   settings:
     foreground: _light-orange
+# Special treatment for CONSTANT variables and this, variable interpolation matches?
+- scope: variable.other.constant, variable.language.this, variable.interpolation
+  settings:
+    foreground: _light-pink
 
 ######################################################## Objects
 - scope: variable.other.object
@@ -158,16 +101,8 @@ tokenColors:
 - scope: string.regexp .source.ruby.embedded
   settings:
     foreground: _orange
-- scope: string.unquoted.js
-  settings:
-    foreground: _light-orange
-- scope: string .punctuation .section.embedded .source
-  settings:
-    foreground: _green
-- scope: string.other.link
-  settings:
-    foreground: _red
 
+# CLEANING
 ######################################################## Punctuation
 - scope: punctuation.definition.array, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.variable
   settings:
@@ -221,9 +156,10 @@ tokenColors:
 - scope: entity.name.type
   settings:
     foreground: _light-orange
+# Class extensions: eg extends `Component`
 - scope: entity.other.inherited-class
   settings:
-    foreground: _green
+    foreground: _light-pink
 - scope: entity.name.class, .entity.name.type.class
   settings:
     foreground: _light-orange
@@ -246,12 +182,10 @@ tokenColors:
     foreground: _blue
 
 ######################################################## Meta
-- scope: meta.import.js
-  settings:
-    foreground: _light-pink
-- scope: meta.class
-  settings:
-    foreground: _light-orange
+# Entire import scope
+# - scope: meta.import.js
+# Entire class scope
+# - scope: meta.class
 - scope: meta.link
   settings:
     foreground: _orange
@@ -271,3 +205,33 @@ tokenColors:
 - scope: none
   settings:
     foreground: _very-light-gray
+
+######################################################## JSX
+# Component names
+- scope: meta.jsx.children.js support.class
+  settings:
+    foreground: _pink
+    fontStyle: italic
+# HTML tag names
+- scope: meta.tag.js entity.name.tag
+  settings:
+    foreground: _light-orange
+
+######################################################## Docker
+# Docker file `FROM`
+- scope: keyword.other.special-method
+  settings:
+    foreground: _blue
+
+######################################################## Styles
+# Expressions like @import
+- scope: keyword.control.at-rule
+  settings:
+    foreground: _purple
+# Style !important declarations
+- scope: keyword.other.important
+  settings:
+    foreground: _light-red
+- scope: variable.interpolation
+  settings:
+    foreground: _pink

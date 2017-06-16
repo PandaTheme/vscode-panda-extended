@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.6.0] - 2017-06-16
+### Added
+- Themed constants and keyword this
+- JSX component names are pink and tags are light orange
+
+### Fixed
+- Fixed JSDoc defaults theming
+- Class meta orange making everything orange
+
+### Removed
+- Unused rules from Panda base
+
 ## [0.5.0] - 2017-06-15
 ### Changed
 Used the base theme scopes from Atom, a number of which don't match, but in general
