@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.6.1] - 2017-06-21
+### Fixed
+- Use a better selector for JSX components that includes children and parent components
+
 ## [0.6.0] - 2017-06-16
 ### Added
 - Themed constants and keyword this
