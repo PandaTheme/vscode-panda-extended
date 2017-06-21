@@ -208,7 +208,7 @@ tokenColors:
 
 ######################################################## JSX
 # Component names
-- scope: meta.jsx.children.js support.class
+- scope: support.class.component
   settings:
     foreground: _pink
     fontStyle: italic

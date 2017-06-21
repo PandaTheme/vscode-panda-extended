@@ -312,7 +312,7 @@
       }
     },
     {
-      "scope": "meta.jsx.children.js support.class",
+      "scope": "support.class.component",
       "settings": {
         "foreground": "#FF75B5",
         "fontStyle": "italic"
