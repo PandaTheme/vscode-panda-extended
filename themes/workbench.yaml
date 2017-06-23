@@ -43,7 +43,18 @@ colors:
   #
   # List
   #
-  # list.hoverForeground: _hover-green tree text on hover
+  # Tree elements on hover
+  list.hoverBackground: _hover-green
+  list.hoverForeground: _white
+  # Tree selection while sidebar is focused
+  list.activeSelectionBackground: _hover-green
+  list.activeSelectionForeground: _white
+  # Tree selection while sidebar is not focused
+  list.inactiveSelectionBackground: _hover-green
+  list.inactiveSelectionForeground: _white
+  # Tree focus when using keyboard
+  list.focusBackground: _hover-green
+  list.focusForeground: _white
   #
   # Sidebar (File tree)
   #
