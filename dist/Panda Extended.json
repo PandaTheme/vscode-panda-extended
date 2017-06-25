@@ -275,6 +275,18 @@
       }
     },
     {
+      "scope": "meta.decorator punctuation.decorator",
+      "settings": {
+        "foreground": "#FFB86C"
+      }
+    },
+    {
+      "scope": "meta.decorator variable",
+      "settings": {
+        "foreground": "#7FD7FF"
+      }
+    },
+    {
       "scope": "meta.link",
       "settings": {
         "foreground": "#FFB86C"

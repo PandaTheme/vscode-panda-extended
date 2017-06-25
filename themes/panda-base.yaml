@@ -186,6 +186,14 @@ tokenColors:
 # - scope: meta.import.js
 # Entire class scope
 # - scope: meta.class
+# JS Class/Method decorators -> @ punctuation is orange
+- scope: meta.decorator punctuation.decorator
+  settings:
+    foreground: _orange
+# JS Class/Method decorators -> blue function name
+- scope: meta.decorator variable
+  settings:
+    foreground: _light-blue
 - scope: meta.link
   settings:
     foreground: _orange
