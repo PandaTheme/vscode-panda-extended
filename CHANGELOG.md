@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.8.0] - 2017-06-25
+### Added
+- Themed JS decorators
+
 ## [0.7.0] - 2017-06-23
 ### Added
 - Themed sidebar
