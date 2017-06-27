@@ -110,10 +110,6 @@ tokenColors:
 - scope: string
   settings:
     foreground: _green
-# Regex components
-- scope: string.regexp
-  settings:
-    foreground: _blue
 
 # -----------------------------------------------------------------------------
 # Punctuation

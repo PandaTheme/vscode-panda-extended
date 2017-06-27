@@ -34,6 +34,14 @@ colors:
   diffEditor.removedTextBackground: _diff-red
   # diffEditor.removedTextBorder: NONE
   # -----------------------------------------------------------------------------
+  # Merge Conflicts
+  # -----------------------------------------------------------------------------
+  merge.currentHeaderBackground: _merge-current-header
+  merge.currentContentBackground: _merge-current-content
+  merge.incomingHeaderBackground: _merge-incoming-header
+  merge.incomingContentBackground: _merge-incoming-content
+  # merge.border: NONE
+  # -----------------------------------------------------------------------------
   # Editor
   # -----------------------------------------------------------------------------
   editor.background: _background-dark

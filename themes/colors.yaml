@@ -42,6 +42,10 @@ _background-light: '#31353a' # seal
 _foreground: '#E6E6E6' # very-light-gray
 _diff-green: '#19f9d866'
 _diff-red: '#FF4B8266'
+_merge-current-header: '#B084EB90' # purple with alpha
+_merge-current-content: '#B084EB40' # same purple less alpha
+_merge-incoming-header: '#45A9F990' # blue with alpha
+_merge-incoming-content: '#45A9F940' # same blue less alpha
 
 # Transparent Hex Table: https://stackoverflow.com/questions/23201134/transparent-argb-hex-value
 # Island of Misfit Colors

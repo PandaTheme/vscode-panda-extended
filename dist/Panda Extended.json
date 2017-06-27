@@ -117,12 +117,6 @@
       }
     },
     {
-      "scope": "string.regexp",
-      "settings": {
-        "foreground": "#45A9F9"
-      }
-    },
-    {
       "scope": "punctuation.definition.template-expression",
       "settings": {
         "foreground": "#FFCC95"
@@ -391,6 +385,25 @@
       }
     },
     {
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "#7FD7FF"
+      }
+    },
+    {
+      "scope": "string.regexp keyword, string.regexp keyword.control",
+      "settings": {
+        "foreground": "#FF75B5",
+        "fontStyle": "normal"
+      }
+    },
+    {
+      "scope": "string.regexp keyword.operator",
+      "settings": {
+        "foreground": "#FF9AC1"
+      }
+    },
+    {
       "scope": "comment.block.documentation",
       "settings": {
         "fontStyle": "normal"
@@ -438,6 +451,10 @@
     "button.hoverBackground": "#45A9F9",
     "diffEditor.insertedTextBackground": "#19f9d866",
     "diffEditor.removedTextBackground": "#FF4B8266",
+    "merge.currentHeaderBackground": "#B084EB90",
+    "merge.currentContentBackground": "#B084EB40",
+    "merge.incomingHeaderBackground": "#45A9F990",
+    "merge.incomingContentBackground": "#45A9F940",
     "editor.background": "#2a2c2d",
     "editor.foreground": "#E6E6E6",
     "editor.selectionBackground": "#4E5260",
