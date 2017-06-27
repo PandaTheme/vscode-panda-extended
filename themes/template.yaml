@@ -39,3 +39,19 @@
 - scope: entity.other.attribute-name.handlebars
   settings:
     foreground: _light-orange
+# -----------------------------------------------------------------------------
+# JSX
+# -----------------------------------------------------------------------------
+# Component names
+- scope: support.class.component
+  settings:
+    foreground: _pink
+    fontStyle: italic
+# HTML tag names
+- scope: meta.tag.js entity.name.tag
+  settings:
+    foreground: _light-orange
+# HTML and Component attribute's name
+- scope: entity.other.attribute-name
+  settings:
+    foreground: _orange

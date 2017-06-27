@@ -1,88 +1,134 @@
 colors:
-  foreground: _very-light-gray
-  #
-  # Activity bar (far left sidebar)
-  #
-  activityBar.background: _gray
+  # -----------------------------------------------------------------------------
+  # Base Colors
+  # -----------------------------------------------------------------------------
+  # Defaults for editor elements, will be used if not set by a specific component
+  # focusBorder. TODO: widget.shadow, selection.background
+  foreground: _foreground
+  errorForeground: _light-red
+  # -----------------------------------------------------------------------------
+  # Activity Bar
+  # -----------------------------------------------------------------------------
+  # The far left sidebar (which can be hidden with: Toggle Activity Bar Visibility!)
+  activityBar.background: _background-dark
   activityBar.foreground: _green
+  activityBar.border: _charcoal
   activityBarBadge.background: _light-blue
-  #
-  # Button
-  #
-  button.background: _blue
-  #
-  # Diff
-  #
+  activityBarBadge.foreground: _foreground
+  # -----------------------------------------------------------------------------
+  # Badges
+  # -----------------------------------------------------------------------------
+  badge.background: _light-blue
+  badge.foreground: _foreground
+  # -----------------------------------------------------------------------------
+  # Buttons
+  # -----------------------------------------------------------------------------
+  button.background: _light-blue
+  button.foreground: _foreground
+  button.hoverBackground: _blue
+  # -----------------------------------------------------------------------------
+  # Diff View
+  # -----------------------------------------------------------------------------
   diffEditor.insertedTextBackground: _diff-green
   # diffEditor.insertedTextBorder: NONE
   diffEditor.removedTextBackground: _diff-red
   # diffEditor.removedTextBorder: NONE
-  #
+  # -----------------------------------------------------------------------------
   # Editor
-  #
-  editor.background: _very-dark-gray
-  editor.foreground: _very-light-gray
+  # -----------------------------------------------------------------------------
+  editor.background: _background-dark
+  editor.foreground: _foreground
   editor.selectionBackground: _steel-gray
   editorCursor.foreground: _light-red
-  editorRuler.foreground: _hover-purple
+  editorRuler.foreground: _purple-fade
   editorBracketMatch.border: _purple
   # editorBracketMatch.background: NONE
-  #
+  # -----------------------------------------------------------------------------
   # Errors
-  #
+  # -----------------------------------------------------------------------------
+  # Themes the squiggly+borders underneath linter errors
   editorError.foreground: _light-red
   editorError.border: _light-red
   editorWarning.foreground: _light-orange
   editorWarning.border: _light-orange
-  #
+  # -----------------------------------------------------------------------------
   # Git Gutters
-  #
+  # -----------------------------------------------------------------------------
   editorGutter.modifiedBackground: _light-orange
   editorGutter.addedBackground: _green
   editorGutter.deletedBackground: _light-red
-  #
+  # -----------------------------------------------------------------------------
   # List
-  #
-  # Tree elements on hover
-  list.hoverBackground: _hover-green
-  list.hoverForeground: _white
-  # Tree selection while sidebar is focused
-  list.activeSelectionBackground: _hover-green
-  list.activeSelectionForeground: _white
-  # Tree selection while sidebar is not focused
-  list.inactiveSelectionBackground: _hover-green
-  list.inactiveSelectionForeground: _white
-  # Tree focus when using keyboard
-  list.focusBackground: _hover-green
-  list.focusForeground: _white
-  #
-  # Sidebar (File tree)
-  #
-  sideBar.background: _very-dark-gray
-  #
-  # Slider
-  #
-  scrollbarSlider.activeBackground: _hover-green
-  scrollbarSlider.hoverBackground: _hover-green
-  #
-  # Status Bar (bar on bottom)
-  #
-  statusBar.background: _gray
-  #
+  # -----------------------------------------------------------------------------
+  # List elements are inside the sidebar + command dropdown
+  # Mouse hover
+  list.hoverBackground: _background-light
+  list.hoverForeground: _green
+  # Keyboard focus
+  list.focusBackground: _background-light
+  list.focusForeground: _green
+  # Selected item when the list container is in focus
+  list.activeSelectionBackground: _background-light
+  list.activeSelectionForeground: _green
+  # Selected item when the list container is NOT in focus
+  list.inactiveSelectionBackground: _background-light
+  list.inactiveSelectionForeground: _green
+  # -----------------------------------------------------------------------------
+  # Sidebar
+  # -----------------------------------------------------------------------------
+  # The side bar includes the file tree, search interface, git status and debug
+  # interfaces. It is located between the Activity Bar and the Editor.
+  sideBar.background: _background-light
+  sideBar.foreground: _foreground
+  sideBar.border: _charcoal
+  # -----------------------------------------------------------------------------
+  # Scrollbar
+  # -----------------------------------------------------------------------------
+  # The .shadow shows under headers in the sideBar and editor when scrolled.
+  # The scrollbarSlider themes BOTH the scrollbar in sideBar/editor AND the minimap
+  # overlays, so it's important to use transparent colors.
+  scrollbar.shadow: _light-purple
+  scrollbarSlider.background: _gray-fade
+  scrollbarSlider.activeBackground: _green-fade
+  scrollbarSlider.hoverBackground: _green-fade
+  # -----------------------------------------------------------------------------
+  # Status Bar
+  # -----------------------------------------------------------------------------
+  # Bar at bottom of editor with status updates
+  statusBar.background: _background-light
+  statusBar.foreground: _foreground
+  statusBar.noFolderForeground: _background-light
+  statusBar.noFolderBackground: _foreground
+  statusBar.debuggingBackground: _purple
+  statusBar.debuggingForeground: _foreground
+  # statusBar.border: NONE
+  # statusBarItem.prominentBackground: NONE
+  # statusBarItem.prominentHoverBackground: NONE
+  # -----------------------------------------------------------------------------
+  # Title Bar
+  # -----------------------------------------------------------------------------
+  titleBar.activeBackground: _background-dark
+  titleBar.activeForeground: _foreground
+  titleBar.inactiveBackground: _background-light
+  titleBar.inactiveForeground: _foreground
+  # -----------------------------------------------------------------------------
   # Tabs
-  #
-  tab.activeBackground: _hover-green
-  #
+  # -----------------------------------------------------------------------------
+  tab.activeBackground: _background-dark
+  tab.activeForeground: _green
+  tab.inactiveBackground: _background-light
+  tab.inactiveForeground: _foreground
+  # -----------------------------------------------------------------------------
   # Terminal
-  #
+  # -----------------------------------------------------------------------------
   terminal.ansiBlue: _blue
-  terminal.ansiBrightBlack: _very-dark-gray
+  terminal.ansiBrightBlack: _background-dark
   terminal.ansiBrightBlue: _light-blue
   terminal.ansiBrightCyan: _light-purple
   terminal.ansiBrightGreen: _green
   terminal.ansiBrightMagenta: _light-pink
   terminal.ansiBrightRed: _red
-  terminal.ansiBrightWhite: _very-light-gray
+  terminal.ansiBrightWhite: _foreground
   terminal.ansiBrightYellow: _light-orange
   terminal.ansiCyan: _purple
   terminal.ansiGreen: _green

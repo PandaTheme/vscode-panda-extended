@@ -1,23 +1,31 @@
 const { writeFile, readFileSync } = require('fs');
 const yaml = require('js-yaml');
 
-let base = yaml.safeLoad(readFileSync('themes/panda-base.yaml', 'utf-8'));
-const workbench = yaml.safeLoad(readFileSync('themes/workbench.yaml', 'utf-8'));
+// Panda theme color definition
 const themeColors = yaml.safeLoad(readFileSync('themes/colors.yaml', 'utf-8'));
+// Base has the syntax tokens applicable across multiple languages
+let base = yaml.safeLoad(readFileSync('themes/panda-base.yaml', 'utf-8'));
+// Additional theme definitions to combine with base syntax token styles
+const workbench = yaml.safeLoad(readFileSync('themes/workbench.yaml', 'utf-8'));
 const template = yaml.safeLoad(readFileSync('themes/template.yaml', 'utf-8'));
 const markdown = yaml.safeLoad(readFileSync('themes/markdown.yaml', 'utf-8'));
 const jsdoc = yaml.safeLoad(readFileSync('themes/jsdoc.yaml', 'utf-8'));
 
-base.tokenColors = base.tokenColors.concat(template, markdown, jsdoc);
+// Merge workbench styles
 Object.assign(base, workbench);
+// Merge additional syntax token styles
+base.tokenColors = base.tokenColors.concat(template, markdown, jsdoc);
 
+// Stringify all of the combined theme styles so we can run string regexes on it to
+// replace color variables with color values
 base = JSON.stringify(base, null, 2);
 
-// Replace all colors in the string theme with actual hex color values
 for (let color in themeColors) {
-  base = base.replace(new RegExp(color, 'g'), themeColors[color]);
+  base = base.replace(new RegExp(color + '"', 'g'), themeColors[color] + '"');
 }
 
+// Base file has been extended with additional theme styles and color variables have
+// been replaced with Panda theme values. Write to /dist for consumption.
 writeFile('dist/Panda Extended.json', base, err => {
   if (err) { console.warn(err); }
   console.log('Build finished');

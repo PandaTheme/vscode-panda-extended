@@ -4,16 +4,20 @@ name: Panda Theme Extended
 colorSpaceName: sRGB
 semanticClass: theme.dark.sublime_panda_syntax
 tokenColors:
-######################################################## Comments
+
+# -----------------------------------------------------------------------------
+# Comments
+# -----------------------------------------------------------------------------
+# Generic <comment> matches
 - scope: comment
   settings:
     foreground: _light-midnight
     fontStyle: italic
-- scope: punctuation.definition.comment
-  settings:
-    foreground: _light-midnight
 
-######################################################## Keywords
+# -----------------------------------------------------------------------------
+# Keywords
+# -----------------------------------------------------------------------------
+# Generic <keyword> matches
 - scope: keyword
   settings:
     foreground: _pink
@@ -23,24 +27,27 @@ tokenColors:
   settings:
     foreground: _pink
     fontStyle: italic
-
 # Make operators light gray by default
 - scope: keyword.operator
   settings:
     foreground: _very-light-gray
-
 # Make logical operators light orange, eg ||, ===
 - scope: keyword.operator.logical, keyword.operator.comparison
   settings:
     foreground: _light-orange
 
-
-######################################################## Storage
+# -----------------------------------------------------------------------------
+# Storage
+# -----------------------------------------------------------------------------
+# Generic <storage> matches
 - scope: storage
   settings:
     foreground: _orange
 
-######################################################## Constants
+# -----------------------------------------------------------------------------
+# Constants
+# -----------------------------------------------------------------------------
+# Generic <constant> matches
 - scope: constant
   settings:
     foreground: _orange
@@ -52,12 +59,11 @@ tokenColors:
 - scope: constant.character.escape
   settings:
     foreground: _blue
-# Numbers
-- scope: constant.numeric
-  settings:
-    foreground: _orange
 
-######################################################## Variables && Parameters
+# -----------------------------------------------------------------------------
+# Variables && Parameters
+# -----------------------------------------------------------------------------
+# Generic <variable> matches
 - scope: variable
   settings:
     foreground: _very-light-gray
@@ -75,15 +81,21 @@ tokenColors:
   settings:
     foreground: _light-pink
 
-######################################################## Objects
+# -----------------------------------------------------------------------------
+# Objects
+# -----------------------------------------------------------------------------
+# Matches when an object is accessed.
 - scope: variable.other.object
   settings:
       foreground: _light-pink
+# The accessed property match
 - scope: variable.other.property
   settings:
     foreground: _very-light-gray
 
-######################################################## Illegals
+# -----------------------------------------------------------------------------
+# Invalid
+# -----------------------------------------------------------------------------
 - scope: invalid.illegal
   settings:
     border-bottom: 1px dashed rgba(255, 44, 109, 0.5)
@@ -91,101 +103,61 @@ tokenColors:
   settings:
     background-foreground: rgba(255, 44, 109, 0.62)
 
-######################################################## Strings
+# -----------------------------------------------------------------------------
+# Strings
+# -----------------------------------------------------------------------------
+# Generic string match
 - scope: string
   settings:
     foreground: _green
+# Regex components
 - scope: string.regexp
   settings:
     foreground: _blue
-- scope: string.regexp .source.ruby.embedded
-  settings:
-    foreground: _orange
 
-# CLEANING
-######################################################## Punctuation
-- scope: punctuation.definition.array, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.variable
-  settings:
-    foreground: _very-light-gray
+# -----------------------------------------------------------------------------
+# Punctuation
+# -----------------------------------------------------------------------------
 # Template string ${}
 - scope: punctuation.definition.template-expression
   settings:
     foreground: _light-orange
-- scope: punctuation.definition.heading, .punctuation.definition.identity
-  settings:
-    foreground: _blue
-- scope: punctuation.definition.string
-  settings:
-    foreground: _green
-- scope: punctuation.definition.bold
-  settings:
-    foreground: _light-orange
-    font-weight: bold
-- scope: punctuation.definition.italic
-  settings:
-    foreground: _pink
-    fontStyle: italic
-- scope: punctuation.definition.tag.jsx
-  settings:
-    foreground: _orange
-- scope: punctuation.section.embedded
-  settings:
-    foreground: _light-pink
 
-######################################################## Support
+# -----------------------------------------------------------------------------
+# Support
+# -----------------------------------------------------------------------------
+# Matches a Class reference when referenced later
 - scope: support.class
   settings:
     foreground: _light-orange
-- scope: support.type
-  settings:
-    foreground: _light-orange
+# Matches: MODULE, MODULE.EXPORTS
 - scope: support.type.object.module.js
   settings:
     foreground: _purple
+# Matches: console.<LOG>
 - scope: support.function
   settings:
     foreground: _light-blue
-- scope: support.function.any-method
-  settings:
-    foreground: _light-blue
 
-######################################################## Entities
+# -----------------------------------------------------------------------------
+# Entities
+# -----------------------------------------------------------------------------
+# Function names
 - scope: entity.name.function
   settings:
     foreground: _light-blue
-- scope: entity.name.type
-  settings:
-    foreground: _light-orange
 # Class extensions: eg extends `Component`
 - scope: entity.other.inherited-class
   settings:
     foreground: _light-pink
-- scope: entity.name.class, .entity.name.type.class
-  settings:
-    foreground: _light-orange
-# Matches markup headers?
-- scope: entity.name.section
-  settings:
-    foreground: _blue
-- scope: entity.name.tag
-  settings:
-    foreground: _red
 # YAML keys
 - scope: entity.name.tag.yaml
   settings:
     foreground: _light-orange
-- scope: entity.other.attribute-name
-  settings:
-    foreground: _orange
-- scope: entity.other.attribute-name.id
-  settings:
-    foreground: _blue
 
-######################################################## Meta
-# Entire import scope
-# - scope: meta.import.js
-# Entire class scope
-# - scope: meta.class
+# -----------------------------------------------------------------------------
+# Meta
+# -----------------------------------------------------------------------------
 # JS Class/Method decorators -> @ punctuation is orange
 - scope: meta.decorator punctuation.decorator
   settings:
@@ -194,44 +166,18 @@ tokenColors:
 - scope: meta.decorator variable
   settings:
     foreground: _light-blue
-- scope: meta.link
-  settings:
-    foreground: _orange
-- scope: meta.require
-  settings:
-    foreground: _blue
-- scope: meta.selector
-  settings:
-    foreground: _pink
-- scope: meta.separator
-  settings:
-    background-foreground: _gray
-    foreground: _very-light-gray
-- scope: meta.method-call.java
-  settings:
-    foreground: _very-light-gray
-- scope: none
-  settings:
-    foreground: _very-light-gray
 
-######################################################## JSX
-# Component names
-- scope: support.class.component
-  settings:
-    foreground: _pink
-    fontStyle: italic
-# HTML tag names
-- scope: meta.tag.js entity.name.tag
-  settings:
-    foreground: _light-orange
-
-######################################################## Docker
+# -----------------------------------------------------------------------------
+# Docker
+# -----------------------------------------------------------------------------
 # Docker file `FROM`
 - scope: keyword.other.special-method
   settings:
     foreground: _blue
 
-######################################################## Styles
+# -----------------------------------------------------------------------------
+# Styles (CSS/SCSS/LESS)
+# -----------------------------------------------------------------------------
 # Expressions like @import
 - scope: keyword.control.at-rule
   settings:

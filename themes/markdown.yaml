@@ -1,6 +1,11 @@
+# Bold Text
 - scope: markup.bold
   settings:
     foreground: _orange
+    font-weight: bold
+- scope: punctuation.definition.bold.markdown
+  settings:
+    foreground: _light-orange
     font-weight: bold
 - scope: markup.changed
   settings:
@@ -8,21 +13,26 @@
 - scope: markup.deleted
   settings:
     foreground: _red
+# Italic Text
 - scope: markup.italic
   settings:
     foreground: _light-pink
     fontStyle: italic
+- scope: punctuation.definition.italic.markdown
+  settings:
+    foreground: _pink
+    fontStyle: italic
 - scope: markup.inserted
   settings:
     foreground: _green
-# Headings Text
-- scope: markup.heading.markdown entity.name.section
-  settings:
-    foreground: _contrast-gray
 # Headings Punctuation
 - scope: punctuation.definition.heading
   settings:
     foreground: _light-orange
+# Headings Text
+- scope: entity.name.section.markdown
+  settings:
+    foreground: _contrast-gray
 # Block Quotes
 - scope: markup.quote
   settings:
