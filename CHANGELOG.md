@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [0.9.0] - 2017-06-27
+### Removed
+- Pruning of base syntax token styles complete, baseline for language highlighting
+  is established.
+
+### Changed
+- Variable names and usage cleaned up in color defs file and workbench theming.
+
+### Added
+- Lots of really great theming for the VSCode workbench.
+
 ## [0.8.0] - 2017-06-25
 ### Added
 - Themed JS decorators
