@@ -1,7 +1,11 @@
-# Panda Theme Extended
+<h2 align="center">VSCode Panda Extended</h2>
+<h1>
+  <img width="500" src="https://cdn.rawgit.com/DHedgecock/vscode-panda-extended/master/public/icon.png" alt="Rainbow Panda"/>
+</h1>
 
-This is the very amazing Panda Theme extended to provide even more amazing, especially
-when working with JSDoc/Handlebars/Markdown.
+This is the very amazing [Panda Theme](https://github.com/PandaTheme) from Siamak
+Mokhtari adapted for VSCode. The theme includes targeted theming for syntax tokens
+as well as theming for the surrounding editor.
 
 ![Screenshot](https://raw.githubusercontent.com/dhedgecock/vscode-panda-extended/master/screenshot.png)
 

@@ -17,6 +17,11 @@
     "scripts": {
         "build": "node build.js"
     },
+    "icon": "assets/panda-extended.png",
+    "galleryBanner": {
+      "color": "#2a2c2d",
+      "theme": "dark"
+    },
     "categories": [
         "Themes"
     ],
