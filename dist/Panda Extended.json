@@ -123,6 +123,12 @@
       }
     },
     {
+      "scope": "support",
+      "settings": {
+        "foreground": "#FFCC95"
+      }
+    },
+    {
       "scope": "support.class",
       "settings": {
         "foreground": "#FFCC95"
@@ -443,11 +449,11 @@
     "activityBar.foreground": "#19f9d8",
     "activityBar.border": "#222223",
     "activityBarBadge.background": "#7FD7FF",
-    "activityBarBadge.foreground": "#E6E6E6",
+    "activityBarBadge.foreground": "#757575",
     "badge.background": "#7FD7FF",
-    "badge.foreground": "#E6E6E6",
+    "badge.foreground": "#757575",
     "button.background": "#7FD7FF",
-    "button.foreground": "#E6E6E6",
+    "button.foreground": "#757575",
     "button.hoverBackground": "#45A9F9",
     "diffEditor.insertedTextBackground": "#19f9d866",
     "diffEditor.removedTextBackground": "#FF4B8266",
@@ -457,10 +463,18 @@
     "merge.incomingContentBackground": "#45A9F940",
     "editor.background": "#2a2c2d",
     "editor.foreground": "#E6E6E6",
-    "editor.selectionBackground": "#4E5260",
     "editorCursor.foreground": "#FF4B82",
     "editorRuler.foreground": "#B084EB60",
     "editorBracketMatch.border": "#B084EB",
+    "editorCodeLens.foreground": "#B084EB90",
+    "editor.selectionBackground": "#B084EB90",
+    "editor.inactiveSelectionBackground": "#B084EB90",
+    "editor.selectionHighlightBackground": "#45A9F940",
+    "editor.wordHighlightBackground": "#FFCC9560",
+    "editor.wordHighlightStrongBackground": "#FF9AC170",
+    "editor.findMatchBackground": "#B084EB90",
+    "editor.findMatchHighlightBackground": "#45A9F940",
+    "editor.lineHighlightBackground": "#31353a",
     "editorError.foreground": "#FF4B82",
     "editorError.border": "#FF4B82",
     "editorWarning.foreground": "#FFCC95",
@@ -476,6 +490,7 @@
     "list.activeSelectionForeground": "#19f9d8",
     "list.inactiveSelectionBackground": "#31353a",
     "list.inactiveSelectionForeground": "#19f9d8",
+    "list.highlightForeground": "#7FD7FF",
     "sideBar.background": "#31353a",
     "sideBar.foreground": "#E6E6E6",
     "sideBar.border": "#222223",
@@ -485,8 +500,8 @@
     "scrollbarSlider.hoverBackground": "#19f9d899",
     "statusBar.background": "#31353a",
     "statusBar.foreground": "#E6E6E6",
-    "statusBar.noFolderForeground": "#31353a",
-    "statusBar.noFolderBackground": "#E6E6E6",
+    "statusBar.noFolderBackground": "#31353a",
+    "statusBar.noFolderForeground": "#E6E6E6",
     "statusBar.debuggingBackground": "#B084EB",
     "statusBar.debuggingForeground": "#E6E6E6",
     "titleBar.activeBackground": "#2a2c2d",

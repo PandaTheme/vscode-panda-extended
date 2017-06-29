@@ -2,7 +2,9 @@
 # Gray Scale
 # -----------------------------------------------------------------------------
 _very-light-gray: '#E6E6E6' # Primary font color
+_very-light-gray-fade: '#FFFFFF'
 _lighter-gray: '#CDCDCD'
+_lighter-gray-fade: '#CDCDCD30'
 _contrast-gray: '#BBBBBB'
 _light-gray: '#757575'
 _light-midnight: '#676B79'
@@ -30,8 +32,10 @@ _red: '#FF2C6D'
 _light-red: '#FF4B82'
 _orange: '#FFB86C'
 _light-orange: '#FFCC95'
+_light-orange-fade: '#FFCC9560'
 _pink: '#FF75B5'
 _light-pink: '#FF9AC1'
+_light-pink-fade: '#FF9AC170'
 # -----------------------------------------------------------------------------
 # Element Colors
 # -----------------------------------------------------------------------------

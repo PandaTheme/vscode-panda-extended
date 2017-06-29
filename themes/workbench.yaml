@@ -14,17 +14,17 @@ colors:
   activityBar.foreground: _green
   activityBar.border: _charcoal
   activityBarBadge.background: _light-blue
-  activityBarBadge.foreground: _foreground
+  activityBarBadge.foreground: _light-gray
   # -----------------------------------------------------------------------------
   # Badges
   # -----------------------------------------------------------------------------
   badge.background: _light-blue
-  badge.foreground: _foreground
+  badge.foreground: _light-gray
   # -----------------------------------------------------------------------------
   # Buttons
   # -----------------------------------------------------------------------------
   button.background: _light-blue
-  button.foreground: _foreground
+  button.foreground: _light-gray
   button.hoverBackground: _blue
   # -----------------------------------------------------------------------------
   # Diff View
@@ -46,11 +46,30 @@ colors:
   # -----------------------------------------------------------------------------
   editor.background: _background-dark
   editor.foreground: _foreground
-  editor.selectionBackground: _steel-gray
   editorCursor.foreground: _light-red
   editorRuler.foreground: _purple-fade
   editorBracketMatch.border: _purple
+  editorCodeLens.foreground: _merge-current-header
   # editorBracketMatch.background: NONE
+  # Selection highlight settings are applied when text is selected, the highlight
+  # background will automatically highlight all other matches of the selected text
+  editor.selectionBackground: _merge-current-header
+  editor.inactiveSelectionBackground: _merge-current-header
+  editor.selectionHighlightBackground: _merge-incoming-content
+  # Word highlight settings are used when the cursor is inside of a symbol and will
+  # automatically highlight all other occurences of that symbol (with the option for
+  # different colors for read vs write access of symbol). Note that this overrides
+  # the selection background after double clicking a symbol to select, but not when
+  # selecting with keyboard
+  # TODO: Make these more subtle, they're distracting
+  editor.wordHighlightBackground: _light-orange-fade # During read access, like console.log
+  editor.wordHighlightStrongBackground: _light-pink-fade # During write access, like const =
+  # Find match settings are triggered by current find/replace dialong in top right
+  editor.findMatchBackground: _merge-current-header
+  editor.findMatchHighlightBackground: _merge-incoming-content
+  # editor.findRangeHighlightBackground: ??? What does this do ???
+  # Currently active line background
+  editor.lineHighlightBackground: _seal
   # -----------------------------------------------------------------------------
   # Errors
   # -----------------------------------------------------------------------------
@@ -81,6 +100,8 @@ colors:
   # Selected item when the list container is NOT in focus
   list.inactiveSelectionBackground: _background-light
   list.inactiveSelectionForeground: _green
+  # The text that matches a search term inside of lists
+  list.highlightForeground: _light-blue
   # -----------------------------------------------------------------------------
   # Sidebar
   # -----------------------------------------------------------------------------
@@ -105,8 +126,8 @@ colors:
   # Bar at bottom of editor with status updates
   statusBar.background: _background-light
   statusBar.foreground: _foreground
-  statusBar.noFolderForeground: _background-light
-  statusBar.noFolderBackground: _foreground
+  statusBar.noFolderBackground: _background-light
+  statusBar.noFolderForeground: _foreground
   statusBar.debuggingBackground: _purple
   statusBar.debuggingForeground: _foreground
   # statusBar.border: NONE

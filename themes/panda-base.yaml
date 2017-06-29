@@ -122,6 +122,10 @@ tokenColors:
 # -----------------------------------------------------------------------------
 # Support
 # -----------------------------------------------------------------------------
+# Generic support match
+- scope: support
+  settings:
+    foreground: _light-orange
 # Matches a Class reference when referenced later
 - scope: support.class
   settings:
