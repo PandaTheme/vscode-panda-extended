@@ -510,7 +510,7 @@
     "titleBar.inactiveForeground": "#E6E6E6",
     "tab.activeBackground": "#2a2c2d",
     "tab.activeForeground": "#19f9d8",
-    "tab.inactiveBackground": "#31353a",
+    "tab.inactiveBackground": "#2a2c2d",
     "tab.inactiveForeground": "#E6E6E6",
     "terminal.ansiBlue": "#45A9F9",
     "terminal.ansiBrightBlack": "#2a2c2d",

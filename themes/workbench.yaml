@@ -145,7 +145,7 @@ colors:
   # -----------------------------------------------------------------------------
   tab.activeBackground: _background-dark
   tab.activeForeground: _green
-  tab.inactiveBackground: _background-light
+  tab.inactiveBackground: _background-dark
   tab.inactiveForeground: _foreground
   # -----------------------------------------------------------------------------
   # Terminal

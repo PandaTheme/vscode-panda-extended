@@ -1,6 +1,6 @@
-<h2 align="center">VSCode Panda Extended</h2>
-<h1>
-  <img width="500" src="https://cdn.rawgit.com/DHedgecock/vscode-panda-extended/master/public/icon.png" alt="Rainbow Panda"/>
+<h1 align="center">
+  VSCode Panda Extended<br />
+  <img width="500" src="https://cdn.rawgit.com/DHedgecock/vscode-panda-extended/master/icon.png" alt="Rainbow Panda"/>
 </h1>
 
 This is the very amazing [Panda Theme](https://github.com/PandaTheme) from Siamak
