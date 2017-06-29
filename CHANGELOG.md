@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
+## [0.10.0]
+### Added
+- Themed: regex, merge conflicts, highlighting
+
+### Changed
+- Updated theme icons and gallery banner
+
+### Fixed:
+- Package.json looking terrible
 
 ## [0.9.0] - 2017-06-27
 ### Removed
