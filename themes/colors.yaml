@@ -41,8 +41,8 @@ _light-pink-fade: '#FF9AC170'
 # -----------------------------------------------------------------------------
 # Two backgrounds are used to provide contrast between section in editor.
 # Foreground color for normal font, use green for contrast fonts
-_background-dark: '#2a2c2d' # very-dark-gray
-_background-light: '#31353a' # seal
+_background-dark: '#242526' # very-dark-gray
+_background-light: '#292A2B' # seal
 _foreground: '#E6E6E6' # very-light-gray
 _diff-green: '#19f9d866'
 _diff-red: '#FF4B8266'

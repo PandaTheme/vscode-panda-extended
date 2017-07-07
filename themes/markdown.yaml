@@ -28,7 +28,7 @@
 # Headings Punctuation
 - scope: punctuation.definition.heading
   settings:
-    foreground: _light-orange
+    foreground: _green
 # Headings Text
 - scope: entity.name.section.markdown
   settings:
@@ -61,7 +61,7 @@
     fontStyle: normal
 - scope: meta.link.inline.markdown
   settings:
-    foreground: _light-blue
+    foreground: _blue
     fontStyle: italic
 - scope: text.html.markdown punctuation.definition.string
   settings:
