@@ -21,11 +21,15 @@ colors:
   badge.background: _light-blue
   badge.foreground: _light-midnight
   # -----------------------------------------------------------------------------
+  # ProgressBar
+  # -----------------------------------------------------------------------------
+  progressBar.background: _purple
+  # -----------------------------------------------------------------------------
   # Buttons
   # -----------------------------------------------------------------------------
-  button.background: _light-blue
-  button.foreground: _light-gray
-  button.hoverBackground: _blue
+  button.background: _blue
+  button.foreground: _very-light-gray-fade
+  button.hoverBackground: _light-midnight
   # -----------------------------------------------------------------------------
   # Diff View
   # -----------------------------------------------------------------------------
@@ -50,6 +54,7 @@ colors:
   editorRuler.foreground: _purple-fade
   editorBracketMatch.border: _green
   editorCodeLens.foreground: _merge-incoming-content
+  editorWhitespace.foreground: _steel-gray
   # editorBracketMatch.background: NONE
   # Selection highlight settings are applied when text is selected, the highlight
   # background will automatically highlight all other matches of the selected text
@@ -70,6 +75,12 @@ colors:
   # editor.findRangeHighlightBackground: ??? What does this do ???
   # Currently active line background
   editor.lineHighlightBackground: _seal
+  # -----------------------------------------------------------------------------
+  # Extensions
+  # -----------------------------------------------------------------------------
+  extensionButton.prominentForeground: _very-light-gray-fade
+  extensionButton.prominentBackground: _blue
+  extensionButton.prominentHoverBackground: _light-midnight
   # -----------------------------------------------------------------------------
   # Errors
   # -----------------------------------------------------------------------------
